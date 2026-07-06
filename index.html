@@ -1,102 +1,103 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>龙印优品印刷包装 | 深圳东莞一站式服务</title>
-<meta name="description" content="龙印优品印刷包装，专注精品包装、彩盒包装、防伪包装、一物一码解决方案" />
 
-<!-- ✅ 修复：必须用根路径 -->
-<link rel="stylesheet" href="/styles.css" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>龙印优品印刷包装 | 深圳东莞一站式服务</title>
+  <meta name="description" content="龙印优品印刷包装，专注精品包装、彩盒、标签、防伪包装解决方案" />
+
+  <!-- ✅ Netlify 必须用绝对路径 -->
+  <link rel="stylesheet" href="/styles.css" />
+
+  <style>
+    /* 临时兜底，防止 CSS 没加载 */
+    body {
+      margin: 0;
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+      color: #111;
+      line-height: 1.6;
+    }
+
+    header.hero {
+      width: 100%;
+      height: 420px;
+      overflow: hidden;
+    }
+
+    header.hero img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      margin-bottom: 15px;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- HEADER -->
-<header class="site-header">
-  <div class="container">
-    
-    <div class="brand">
-      <div>
-        <strong>龙印优品印刷包装</strong><br/>
-        <small>设计 · 印刷 · 包装一体化</small>
-      </div>
-    </div>
+  <!-- ===== HERO ===== -->
+  <header class="hero">
+    <img src="/hero-showroom.jpg" alt="龙印优品展示" />
+  </header>
 
-    <nav class="nav">
-      <a href="#about">公司介绍</a>
-      <a href="#capability">核心能力</a>
-      <a href="#equipment">设备工艺</a>
-      <a href="#products">产品展示</a>
-      <a href="#quality">质量防伪</a>
-      <a href="#contact">联系我们</a>
-    </nav>
+  <!-- ===== 公司介绍 ===== -->
+  <section id="about">
+    <h2>公司介绍</h2>
+    <p>龙印优品印刷包装，专注精品包装定制，提供设计、印刷、包装一体化服务。</p>
+  </section>
 
-  </div>
-</header>
+  <!-- ===== 核心能力 ===== -->
+  <section id="capability">
+    <h2>核心能力</h2>
+    <ul>
+      <li>精品包装设计</li>
+      <li>彩盒印刷</li>
+      <li>防伪标签</li>
+      <li>一体化解决方案</li>
+    </ul>
+  </section>
 
-<!-- HERO -->
-<section class="hero">
-  <img src="/hero-showroom.jpg" class="hero-img" />
-  <div class="hero-text">
-    <h1>专注精品印刷包装解决方案</h1>
-    <p>一物一码 · 防伪溯源 · 彩盒包装 · 精品定制</p>
-  </div>
-</section>
+  <!-- ===== 设备工艺 ===== -->
+  <section id="equipment">
+    <h2>设备工艺</h2>
+    <img src="/equipment-roland.jpg" width="100%" />
+    <img src="/equipment-uv-machine.jpg" width="100%" />
+  </section>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-  <h2>公司介绍</h2>
-  <p>龙印优品印刷包装成立于深圳，专注精品包装与一站式印刷解决方案。</p>
-</section>
+  <!-- ===== 产品展示 ===== -->
+  <section id="products">
+    <h2>产品展示</h2>
 
-<!-- CAPABILITY -->
-<section id="capability" class="section">
-  <h2>核心能力</h2>
-  <ul>
-    <li>设计研发</li>
-    <li>印刷生产</li>
-    <li>包装一体化</li>
-    <li>防伪溯源系统</li>
-  </ul>
-</section>
+    <img src="/gallery-01.jpg" width="30%" />
+    <img src="/gallery-02.jpg" width="30%" />
+    <img src="/gallery-03.jpg" width="30%" />
+  </section>
 
-<!-- EQUIPMENT -->
-<section id="equipment" class="section">
-  <h2>设备工艺</h2>
-  <img src="/equipment-uv-machine.jpg" />
-  <img src="/equipment-printing-line.jpg" />
-</section>
+  <!-- ===== 质量防伪 ===== -->
+  <section id="quality">
+    <h2>质量与防伪</h2>
+    <img src="/anti-counterfeit-1.jpg" width="45%" />
+    <img src="/certificate-1.jpg" width="45%" />
+  </section>
 
-<!-- PRODUCTS -->
-<section id="products" class="section">
-  <h2>产品展示</h2>
-
-  <img src="/gallery-01.jpg" />
-  <img src="/gallery-02.jpg" />
-  <img src="/gallery-03.jpg" />
-  <img src="/gallery-04.jpg" />
-  <img src="/gallery-05.jpg" />
-  <img src="/gallery-06.jpg" />
-</section>
-
-<!-- QUALITY -->
-<section id="quality" class="section">
-  <h2>质量防伪</h2>
-  <img src="/certificate-1.jpg" />
-  <img src="/certificate-2.jpg" />
-</section>
-
-<!-- CONTACT -->
-<section id="contact" class="section">
-  <h2>联系我们</h2>
-  <p>欢迎咨询合作：印刷包装 / 防伪系统 / 定制服务</p>
-</section>
-
-<!-- FOOTER -->
-<footer class="footer">
-  <p>© 龙印优品印刷包装</p>
-</footer>
+  <!-- ===== 联系我们 ===== -->
+  <section id="contact">
+    <h2>联系我们</h2>
+    <p>欢迎咨询合作，我们提供一站式包装解决方案。</p>
+  </section>
 
 </body>
+
 </html>
