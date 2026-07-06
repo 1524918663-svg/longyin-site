@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Microsoft YaHei", sans-serif;
 }
 
 body {
-  background: #f6f7fb;
+  background: #f5f7fb;
   color: #222;
 }
 
@@ -15,125 +15,92 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background: rgba(0,0,0,0.85);
+  background: #111;
   color: white;
   display: flex;
   justify-content: space-between;
   padding: 15px 40px;
   z-index: 1000;
-  backdrop-filter: blur(10px);
 }
 
 .nav a {
   color: white;
   margin-left: 20px;
   text-decoration: none;
-  opacity: 0.8;
 }
 
-.nav a:hover {
-  opacity: 1;
-}
-
-.logo {
-  font-weight: bold;
-}
-
-/* Hero */
+/* 首页 */
 .hero {
-  height: 100vh;
-  background: linear-gradient(120deg, #111, #333);
+  height: 80vh;
+  background: linear-gradient(to right, #111, #333);
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  color: white;
 }
 
 .hero h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  opacity: 0.8;
-  margin-bottom: 20px;
-}
-
-.btn {
-  background: white;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 6px;
-  text-decoration: none;
+  font-size: 40px;
 }
 
 /* 通用区块 */
 .section {
-  max-width: 1100px;
-  margin: 100px auto;
-  padding: 0 20px;
+  padding: 80px 20px;
+  text-align: center;
 }
 
-.section h2 {
-  font-size: 26px;
-  margin-bottom: 20px;
-  border-left: 4px solid #111;
-  padding-left: 10px;
+.text {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+  color: #555;
 }
 
 /* 图片网格 */
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .grid img {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  transition: 0.3s;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-.grid img:hover {
-  transform: translateY(-5px);
+/* 证书 */
+.cert {
+  width: 300px;
+  margin-top: 20px;
 }
 
 /* 联系方式 */
 .contact {
   padding: 80px 20px;
+  background: #eef2f7;
   text-align: center;
-  background: #f6f8fb;
 }
 
 .contact-box {
-  max-width: 800px;
+  max-width: 600px;
   margin: auto;
   background: white;
   padding: 30px;
-  border-radius: 14px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   text-align: left;
   line-height: 2;
-}
-
-/* footer */
-.footer {
-  text-align: center;
-  padding: 40px;
-  background: #111;
-  color: white;
-  margin-top: 60px;
 }
 
 /* 动画 */
 .fade {
   opacity: 0;
-  transform: translateY(40px);
-  transition: 0.8s ease;
+  transform: translateY(30px);
+  transition: 0.8s;
 }
 
 .fade.show {
@@ -141,17 +108,10 @@ body {
   transform: translateY(0);
 }
 
-/* 手机 */
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  .nav {
-    flex-direction: column;
-  }
+/* 底部 */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
