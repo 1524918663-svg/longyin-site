@@ -1,108 +1,59 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>龙印优品印刷包装</title>
-
-<style>
-body {
-  margin: 0;
-  font-family: "PingFang SC", Arial;
-  background: #f6f7f9;
-  color: #222;
-}
-
-/* 顶部导航 */
-header {
-  background: #111;
-  color: white;
-  padding: 18px 40px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* 容器 */
-.container {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-/* 模块卡片 */
-.card {
-  background: white;
-  border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 18px rgba(0,0,0,0.06);
-}
-
-/* 标题 */
-h2 {
-  margin-top: 0;
-  font-size: 18px;
-  border-left: 4px solid #111;
-  padding-left: 10px;
-}
-
-/* 图片 */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-
-img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-/* footer */
-footer {
-  text-align: center;
-  padding: 30px;
-  color: #888;
-  font-size: 12px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>龙印优品印刷包装</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-<header>龙印优品印刷包装</header>
-
-<div class="container">
-
-  <div class="card">
-    <h2>公司介绍</h2>
-    <p>专业包装印刷服务提供商，一站式解决方案。</p>
-  </div>
-
-  <div class="card">
-    <h2>设备工艺</h2>
-    <div class="grid">
-      <img src="你的图片1.jpg">
-      <img src="你的图片2.jpg">
+<header class="header">
+    <div class="container">
+        <h1>龙印优品印刷包装</h1>
+        <p>专业包装印刷服务 · 一站式解决方案</p>
     </div>
-  </div>
+</header>
 
-  <div class="card">
-    <h2>产品展示</h2>
-    <div class="grid">
-      <img src="你的图片3.jpg">
-      <img src="你的图片4.jpg">
+<section class="section">
+    <div class="container">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，专注高品质印刷与包装解决方案。</p>
     </div>
-  </div>
+</section>
 
-  <div class="card">
-    <h2>资质认证</h2>
-    <img src="你的证书.jpg">
-  </div>
+<section class="section">
+    <div class="container">
+        <h2>设备工艺</h2>
+        <div class="grid">
+            <img src="./equipment-roland.jpg">
+            <img src="./equipment-printing-line.jpg">
+        </div>
+    </div>
+</section>
 
-</div>
+<section class="section">
+    <div class="container">
+        <h2>产品展示</h2>
+        <div class="grid">
+            <img src="./gallery-01.jpg">
+            <img src="./gallery-02.jpg">
+            <img src="./product-green-box.jpg">
+        </div>
+    </div>
+</section>
 
-<footer>© 2026 龙印优品印刷包装</footer>
+<section class="section">
+    <div class="container">
+        <h2>资质认证</h2>
+        <img src="./certificate-1.jpg">
+    </div>
+</section>
+
+<footer class="footer">
+    <p>© 2026 龙印优品印刷包装</p>
+</footer>
 
 </body>
 </html>
