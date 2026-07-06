@@ -1,129 +1,809 @@
 <!DOCTYPE html>
 <html lang="zh">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>龙印优品印刷包装</title>
 
 <style>
-body {
-    margin: 0;
-    font-family: "Microsoft YaHei", sans-serif;
-    background: #f6f7f9;
-    color: #222;
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
 }
 
 /* 顶部 */
-.header {
-    background: #0f0f10;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
 }
 
-.header h1 {
-    margin: 0;
-    font-size: 34px;
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
 }
 
-.header p {
-    margin-top: 10px;
-    opacity: 0.8;
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
 }
 
-/* 容器 */
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 40px 20px;
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
 }
 
-/* 模块标题 */
-.section-title {
-    font-size: 22px;
-    margin: 40px 0 20px;
-    border-left: 4px solid #000;
-    padding-left: 10px;
-}
-
-/* 卡片 */
-.card {
-    background: white;
-    border-radius: 12px;
-    padding: 20px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-}
-
-/* 图片网格 */
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 20px;
-}
-
-.grid img {
-    width: 100%;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.grid img:hover {
-    transform: scale(1.02);
-}
-
-/* 底部 */
-.footer {
-    text-align: center;
-    padding: 30px;
-    color: #888;
-    font-size: 12px;
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
 }
 </style>
 </head>
 
 <body>
 
-<div class="header">
+<div class="top">
     <h1>龙印优品印刷包装</h1>
-    <p>专注精品包装 · 印刷 · 一体化解决方案</p>
+    <p>专注包装印刷 · 一站式解决方案</p>
 </div>
 
-<div class="container">
+<div class="wrap">
 
-    <div class="section-title">公司介绍</div>
-    <div class="card">
-        专业包装印刷服务提供商，提供设计 + 印刷 + 包装一站式解决方案，服务制造业与品牌客户。
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
     </div>
 
-    <div class="section-title">设备工艺</div>
-    <div class="card">
-        <div class="grid">
-            <img src="你的图片1.jpg">
-            <img src="你的图片2.jpg">
-        </div>
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
     </div>
 
-    <div class="section-title">产品展示</div>
-    <div class="card">
-        <div class="grid">
-            <img src="你的图片3.jpg">
-            <img src="你的图片4.jpg">
-            <img src="你的图片5.jpg">
-        </div>
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
     </div>
 
-    <div class="section-title">质量与认证</div>
-    <div class="card">
-        <div class="grid">
-            <img src="你的ISO证书.jpg">
-        </div>
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
     </div>
 
 </div>
 
-<div class="footer">
-    © 2026 龙印优品印刷包装 · All Rights Reserved
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
 </div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
+</div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
+</div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
+</div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
+</div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
+</div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>龙印优品印刷包装</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, "Microsoft YaHei";
+    background:#f4f6f8;
+    color:#222;
+}
+
+/* 顶部 */
+.top{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:50px 20px;
+}
+.top h1{margin:0;font-size:30px;}
+.top p{opacity:0.7}
+
+/* 主体 */
+.wrap{
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+}
+
+/* 模块 */
+.box{
+    background:#fff;
+    padding:20px;
+    margin:20px 0;
+    border-radius:10px;
+}
+
+/* 图片 */
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+/* 标题 */
+h2{
+    border-left:4px solid #000;
+    padding-left:10px;
+    font-size:20px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    font-size:12px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="top">
+    <h1>龙印优品印刷包装</h1>
+    <p>专注包装印刷 · 一站式解决方案</p>
+</div>
+
+<div class="wrap">
+
+    <div class="box">
+        <h2>公司介绍</h2>
+        <p>专业包装印刷服务提供商，提供设计、印刷、包装一体化解决方案。</p>
+    </div>
+
+    <div class="box">
+        <h2>设备工艺</h2>
+        <img src="你的图片1.jpg">
+        <img src="你的图片2.jpg">
+    </div>
+
+    <div class="box">
+        <h2>产品展示</h2>
+        <img src="你的图片3.jpg">
+        <img src="你的图片4.jpg">
+    </div>
+
+    <div class="box">
+        <h2>质量认证</h2>
+        <img src="你的证书.jpg">
+    </div>
+
+</div>
+
+<footer>
+© 2026 龙印优品印刷包装
+</footer>
 
 </body>
 </html>
